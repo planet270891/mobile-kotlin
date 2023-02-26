@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SuhuActivity"
+    android:padding="10dp"
+    >
+
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nilai Celcius : "
+        android:textColor="#000"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/txtCelcius"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:inputType="number|numberDecimal"
+        android:layout_marginTop="18dp"
+        android:ems="10" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nilai Fahrenheit : "
+        android:textColor="#000"
+        android:textSize="16sp"
+        android:layout_marginTop="80dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/txtFahrenheit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:inputType="number|numberDecimal"
+        android:layout_marginTop="98dp"
+        android:ems="10" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nilai Reamur : "
+        android:textColor="#000"
+        android:textSize="16sp"
+        android:layout_marginTop="158dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/txtReamur"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:inputType="number|numberDecimal"
+        android:layout_marginTop="178dp"
+        android:ems="10" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nilai Kelvin : "
+        android:textColor="#000"
+        android:textSize="16sp"
+        android:layout_marginTop="240dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/txtKelvin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:inputType="number|numberDecimal"
+        android:layout_marginTop="260dp"
+        android:ems="10" />
+
+    <Button
+        android:id="@+id/btnKonversi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="330dp"
+        android:text="Mulai Konversi" />
+
+
+</RelativeLayout>

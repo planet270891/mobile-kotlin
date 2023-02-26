@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Latihan Android</string>
+    <string name="btn_show_toast">Tampilkan Toast</string>
+    <string name="btn_move_to_next_activity">Kirim data ke activity selanjutnya</string>
+    <string name="btn_share_to_apps">Bagikan pada aplikasi</string>
+    <string name="et_enter_msg">Silahkan ketik sebuah pesan</string>
+    <string name="btn_was_clicked">Anda mengklik sebuah tombol !</string>
+    <string name="select_app">"Silahkan pilih aplikasi : "</string>
+</resources>

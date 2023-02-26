@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CalculatorActity"
+    android:padding="10dp"
+    >
+
+    <EditText
+        android:id="@+id/txtBilangan1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="10dp"
+        android:inputType="number|numberDecimal"
+        android:ems="10"
+        android:hint="Masukan Bilangan Pertama" />
+
+    <EditText
+        android:id="@+id/txtBilangan2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="80dp"
+        android:inputType="number|numberDecimal"
+        android:ems="10"
+        android:hint="Masukan Bilangan Kedua" />
+
+    <EditText
+        android:id="@+id/txtHasil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="151dp"
+        android:ems="10"
+        android:inputType="number|numberDecimal"
+        android:editable="false"
+        android:hint="Hasilnya" />
+
+    <Button
+        android:id="@+id/btnTambah"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:ems="5"
+        android:text="+" />
+
+    <Button
+        android:id="@+id/btnKurang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="100dp"
+        android:ems="5"
+        android:text="-" />
+
+    <Button
+        android:id="@+id/btnKali"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="200dp"
+        android:ems="5"
+        android:text="x" />
+
+    <Button
+        android:id="@+id/btnBagi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="300dp"
+        android:ems="5"
+        android:text="/" />
+
+    <Button
+        android:id="@+id/btnHome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="270dp"
+        android:text="Kembali ke menu utama" />
+
+
+</RelativeLayout>
